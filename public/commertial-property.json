@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Bloomfield house",
+    "price": 250000,
+    "status": "For rent",
+    "image": "https://thumbs.dreamstime.com/b/modern-house-interior-exterior-design-46517595.jpg",
+    "beds": 5,
+    "baths": 3,
+    "area": 520,
+    "garage": 2
+  },
+  {
+    "id": 2,
+    "title": "Rockville Ave villa",
+    "price": 180000,
+    "status": "For sale",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/dutch-colonial-house-style-66956274903da.jpg?crop=1.00xw:0.671xh;0,0.131xh&resize=1120:*",
+    "beds": 6,
+    "baths": 3,
+    "area": 520,
+    "garage": 2
+  },
+  {
+    "id": 3,
+    "title": "Scotch Plains villa",
+    "price": 180000,
+    "status": "For rent",
+    "image": "https://i.pinimg.com/736x/f2/8c/7d/f28c7d67aec63c6f35a14a539d0d57c1.jpg",
+    "beds": 8,
+    "baths": 3,
+    "area": 620,
+    "garage": 3
+  },
+  {
+    "id": 4,
+    "title": "Lees Creek house",
+    "price": 210000,
+    "status": "For sale",
+    "image": "https://webberstudio.com/wp-content/uploads/2023/02/Stunning-House-Design.jpg",
+    "beds": 5,
+    "baths": 2,
+    "area": 455,
+    "garage": 1
+  }
+]

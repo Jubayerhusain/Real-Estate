@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "Division Road house",
+    "location": "506 Division Road Pritchardsville, FL 30028",
+    "price": 250000,
+    "status": "For sale",
+    "image": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9tZXxlbnwwfHwwfHx8MA%3D%3D",
+    "beds": 4,
+    "baths": 2,
+    "area": 520,
+    "garage": 2
+  },
+  {
+    "id": 2,
+    "title": "North Road house",
+    "location": "139 North Road Morrison, NJ 08854",
+    "price": 220000,
+    "status": "For sale",
+    "image": "https://www.maramani.com/cdn/shop/products/MansionHouseDesign-ID37901-Perspective_1.jpg?v=1664200394&width=2048",
+    "beds": 5,
+    "baths": 2,
+    "area": 600,
+    "garage": 1
+  },
+  {
+    "id": 3,
+    "title": "Bloomfield house",
+    "location": "26 Jermaine Street Bloomfield, NJ 07003",
+    "price": 250000,
+    "status": "For rent",
+    "image": "https://thumbs.dreamstime.com/b/modern-house-interior-exterior-design-46517595.jpg",
+    "beds": 5,
+    "baths": 3,
+    "area": 520,
+    "garage": 2
+  },
+  {
+    "id": 4,
+    "title": "Rockville Ave villa",
+    "location": "98 Rockville Ave Morris, FL 29714",
+    "price": 180000,
+    "status": "For sale",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/dutch-colonial-house-style-66956274903da.jpg?crop=1.00xw:0.671xh;0,0.131xh&resize=1120:*",
+    "beds": 6,
+    "baths": 3,
+    "area": 520,
+    "garage": 2
+  },
+  {
+    "id": 5,
+    "title": "Scotch Plains villa",
+    "location": "89 Scotch Plains North, PA 19084",
+    "price": 180000,
+    "status": "For rent",
+    "image": "https://i.pinimg.com/736x/f2/8c/7d/f28c7d67aec63c6f35a14a539d0d57c1.jpg",
+    "beds": 8,
+    "baths": 3,
+    "area": 620,
+    "garage": 3
+  },
+  {
+    "id": 6,
+    "title": "Lees Creek house",
+    "location": "38 Lees Creek St, Oyelts, OH 45264",
+    "price": 210000,
+    "status": "For sale",
+    "image": "https://webberstudio.com/wp-content/uploads/2023/02/Stunning-House-Design.jpg",
+    "beds": 5,
+    "baths": 2,
+    "area": 455,
+    "garage": 1
+  }
+
+]
