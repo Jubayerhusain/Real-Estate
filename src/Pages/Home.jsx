@@ -1,11 +1,11 @@
 import React from "react";
-import HomeHero from "../Components/HomeHero";
-import FeaturedProperty from "../Components/FeaturedProperty";
-import SatisfactionSection from "../Components/SatisfactionSection ";
-import Testimonial from './../Components/Testimonial';
-import CommercialProperty from './../Components/CommercialProperty';
-import ContactHero from './../Components/ContactHero';
-import AllCity from "../Components/AllCity";
+import HomeHero from "../Components/Home/HomeHero";
+import FeaturedProperty from "../Components/Home/FeaturedProperty";
+import SatisfactionSection from "../Components/Home/SatisfactionSection ";
+import Testimonial from '../Components/Home/Testimonial';
+import CommercialProperty from '../Components/Home/CommercialProperty';
+import ContactHero from '../Components/Home/ContactHero';
+import AllCity from "../Components/Home/AllCity";
 
 const Home = () => {
   return (

@@ -6,115 +6,84 @@ import { BiLogoTelegram } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <>
-      <div className="bg-[#100E2C]">
-        <footer className="flex justify-evenly sm:footer-horizontal  text-[#FFFFFF] p-10">
-          <nav>
-            <h6 className="footer-title">Opening hours</h6>
-            <ul className="list-none">
-              <li>
-                <a className="link link-hover">Mon-Fri 08:00AM - 08:00PM</a>
-              </li>
-              <li>
-                <a className="link link-hover">Sat-Sun 08:00AM - 08:00PM</a>
-              </li>
-            </ul>
-          </nav>
+    <div className="bg-[#100E2C] w-full">
+      {/* TOP FOOTER */}
+      <footer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 text-white p-10 max-w-7xl mx-auto">
+        {/* Opening Hours */}
+        <nav>
+          <h6 className="font-semibold text-lg mb-3">Opening hours</h6>
+          <ul className="space-y-2 text-sm text-gray-300">
+            <li>Mon-Fri 08:00AM - 08:00PM</li>
+            <li>Sat-Sun 08:00AM - 08:00PM</li>
+          </ul>
+        </nav>
 
-          <nav>
-            <h6 className="footer-title">Find Us</h6>
-            <ul className="list-none">
-              <li>
-                <a className="link link-hover">
-                  8911 Tanglewood Ave. <br />
-                  Capitol Heights, MD 20743
-                </a>
-              </li>
-              <li>
-                <a className="link link-hover">(566) 237-4687</a>
-              </li>
-              <li>
-                <a className="link link-hover">moinefou@hotmail.com</a>
-              </li>
-            </ul>
-          </nav>
+        {/* Find Us */}
+        <nav>
+          <h6 className="font-semibold text-lg mb-3">Find Us</h6>
+          <ul className="space-y-2 text-sm text-gray-300">
+            <li>
+              8911 Tanglewood Ave.<br />Capitol Heights, MD 20743
+            </li>
+            <li>(566) 237-4687</li>
+            <li>moinefou@hotmail.com</li>
+          </ul>
+        </nav>
 
-          <nav>
-            <h6 className="footer-title">Property</h6>
-            <ul className="list-none">
-              <li>
-                <a className="link link-hover">Apartments</a>
-              </li>
-              <li>
-                <a className="link link-hover">Villa’s</a>
-              </li>
-              <li>
-                <a className="link link-hover">Houses</a>
-              </li>
-              <li>
-                <a className="link link-hover">Commercial</a>
-              </li>
-            </ul>
-          </nav>
+        {/* Property */}
+        <nav>
+          <h6 className="font-semibold text-lg mb-3">Property</h6>
+          <ul className="space-y-2 text-sm text-gray-300">
+            <li>Apartments</li>
+            <li>Villa’s</li>
+            <li>Houses</li>
+            <li>Commercial</li>
+          </ul>
+        </nav>
 
-          <nav>
-            <h6 className="footer-title">Links</h6>
-            <ul className="list-none">
-              <li>
-                <a className="link link-hover">Home</a>
-              </li>
-              <li>
-                <a className="link link-hover">Property</a>
-              </li>
-              <li>
-                <a className="link link-hover">About</a>
-              </li>
-              <li>
-                <a className="link link-hover">Contact</a>
-              </li>
-            </ul>
-          </nav>
+        {/* Links */}
+        <nav>
+          <h6 className="font-semibold text-lg mb-3">Links</h6>
+          <ul className="space-y-2 text-sm text-gray-300">
+            <li>Home</li>
+            <li>Property</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
 
-          <form>
-            <h6 className="footer-title">Newsletter</h6>
-            <fieldset className="w-80">
-              <label>Enter your email address</label>
-              <div className="join mt-2">
-                <input
-                  type="text"
-                  placeholder="username@site.com"
-                  className="input input-bordered join-item"
-                />
-                <button className="btn btn-primary join-item">Subscribe</button>
-              </div>
-            </fieldset>
-          </form>
-        </footer>
+        {/* Newsletter */}
+        <form>
+          <h6 className="font-semibold text-lg mb-3">Newsletter</h6>
+          <label className="text-sm text-gray-300">Enter your email address</label>
+          <div className="flex mt-2">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              className="input input-bordered rounded-l-md w-full text-black px-3 py-2"
+            />
+            <button className="btn btn-primary rounded-r-md px-6">Subscribe</button>
+          </div>
+        </form>
+      </footer>
 
-        <footer className="footer sm:footer-horizontal px-10 w-10/12 mx-auto text-neutral-content items-center p-4">
-          <aside className="grid-flow-col items-center">
-            <p>Copyright © Real Estate {new Date().getFullYear()} Design by Figma.guru</p>
-          </aside>
-          <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end pr-10">
-            
-            <div>
-                <FaFacebookF className="h-10 w-10 rounded-full bg-white p-2 text-black" ></FaFacebookF>
-            </div>
-            <div>
-                <LuInstagram className="h-10 w-10 rounded-full bg-white p-2 text-black" ></LuInstagram>
-            </div>
-            <div>
-                <FaXTwitter className="h-10 w-10 rounded-full bg-white p-2 text-black" ></FaXTwitter>
-            </div>
+      {/* BOTTOM FOOTER */}
+      <footer className="flex flex-col sm:flex-row justify-between items-center max-w-7xl mx-auto p-4 px-6 text-gray-300">
+        <aside className="text-center sm:text-left text-sm">
+          <p>
+            Copyright © Real Estate {new Date().getFullYear()} | Design by
+            Figma.guru
+          </p>
+        </aside>
 
-            <div>
-                <BiLogoTelegram className="h-10 w-10 rounded-full bg-white p-2 text-black" ></BiLogoTelegram>    
-            </div>
-
-          </nav>
-        </footer>
-      </div>
-    </>
+        <nav className="flex gap-4 mt-4 sm:mt-0">
+          <FaFacebookF className="h-10 w-10 rounded-full bg-white p-2 text-black cursor-pointer hover:scale-105 duration-200" />
+          <LuInstagram className="h-10 w-10 rounded-full bg-white p-2 text-black cursor-pointer hover:scale-105 duration-200" />
+          <FaXTwitter className="h-10 w-10 rounded-full bg-white p-2 text-black cursor-pointer hover:scale-105 duration-200" />
+          <BiLogoTelegram className="h-10 w-10 rounded-full bg-white p-2 text-black cursor-pointer hover:scale-105 duration-200" />
+        </nav>
+      </footer>
+    </div>
   );
 };
 

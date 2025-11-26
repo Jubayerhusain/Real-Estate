@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import PropertyHero from './../Components/PropertyHero';
+import PropertyHero from '../Components/Property/PropertyHero';
 import SharedCard from './../Components/Shared/ShardCard';
 
 const Property = () => {
