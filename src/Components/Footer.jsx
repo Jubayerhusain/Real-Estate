@@ -7,9 +7,7 @@ import { BiLogoTelegram } from "react-icons/bi";
 const Footer = () => {
   return (
     <div className="bg-[#100E2C] w-full">
-      {/* TOP FOOTER */}
       <footer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 text-white p-10 max-w-7xl mx-auto">
-        {/* Opening Hours */}
         <nav>
           <h6 className="font-semibold text-lg mb-3">Opening hours</h6>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -18,7 +16,6 @@ const Footer = () => {
           </ul>
         </nav>
 
-        {/* Find Us */}
         <nav>
           <h6 className="font-semibold text-lg mb-3">Find Us</h6>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -29,8 +26,6 @@ const Footer = () => {
             <li>moinefou@hotmail.com</li>
           </ul>
         </nav>
-
-        {/* Property */}
         <nav>
           <h6 className="font-semibold text-lg mb-3">Property</h6>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -41,7 +36,6 @@ const Footer = () => {
           </ul>
         </nav>
 
-        {/* Links */}
         <nav>
           <h6 className="font-semibold text-lg mb-3">Links</h6>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -52,7 +46,6 @@ const Footer = () => {
           </ul>
         </nav>
 
-        {/* Newsletter */}
         <form>
           <h6 className="font-semibold text-lg mb-3">Newsletter</h6>
           <label className="text-sm text-gray-300">Enter your email address</label>
@@ -67,7 +60,6 @@ const Footer = () => {
         </form>
       </footer>
 
-      {/* BOTTOM FOOTER */}
       <footer className="flex flex-col sm:flex-row justify-between items-center max-w-7xl mx-auto p-4 px-6 text-gray-300">
         <aside className="text-center sm:text-left text-sm">
           <p>
