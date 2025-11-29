@@ -67,7 +67,7 @@ const Navbar = () => {
                 <Link to="/contact">Contact us</Link>
               </li>
               <li>
-                <Link to="/login">Login</Link>
+                <Link to="/signin">Login</Link>
               </li>
               <li>
                 <p>(257) 388-6895</p>
@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className=" items-center hidden lg:flex">
             <div className="flex items-center">
               <CgProfile className="text-2xl mr-2" />
-              <Link to="/login">Login</Link>
+              <Link to="/signin">Login</Link>
             </div>
             <div className="flex items-center">
               <FiPhone className="text-2xl mr-2 ml-4" />

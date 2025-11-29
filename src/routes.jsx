@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import Property from "./Pages/Property";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import SignIn from "./Pages/SignIn";
+import SignUp from "./Pages/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,16 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+
+      // auth routes can be added here
+      {
+        path: "signin",
+        element: <SignIn />,
+      },
+      {
+        path: "signUp",
+        element: <SignUp />,
       }
     ],
   },
