@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/Testimonial_image.jpg";
+import image from "../../assets/testimonial_image.jpg";
 import quotation from "../../assets/quotation-mark.png";
 
 const Testimonial = () => {
